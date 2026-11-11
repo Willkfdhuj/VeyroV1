@@ -1,6 +1,6 @@
 --!nocheck
 
-local BASE_URL = "https://raw.githubusercontent.com/Willkfdhuj/VeyroV1/main/"
+local BASE_URL = "https://raw.githubusercontent.com/Willkfdhuj/VeyroV1/refs/heads/main/"
 
 local function Download(path)
     local success, result = pcall(function()
