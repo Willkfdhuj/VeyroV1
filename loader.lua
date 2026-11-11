@@ -39,3 +39,9 @@ local function Load(path)
     print("[Veyro] Loaded " .. path)
     return true
 end
+
+print("[Veyro] Starting...")
+
+Load("main.lua")
+
+print("[Veyro] Ready.")
